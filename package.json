@@ -1,0 +1,31 @@
+{
+  "name": "basic-prototyping-starter",
+  "version": "0.0.1",
+  "description": "A starter project that uses gulp automation to allow for fast prototyping in the browser.",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^1.2.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-scss-lint": "^0.3.9",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "through2": "^2.0.1"
+  }
+}

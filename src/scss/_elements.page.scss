@@ -1,0 +1,54 @@
+html {
+  background-color: $color-white;
+  color: $color-text;
+  font-family: sans-serif;
+  font-size: $base-font-size; // 16px
+  line-height: 1.5em;
+  padding: $base-spacing-unit / 2;
+  padding-bottom: 0;
+  //padding-top: $base-spacing-unit;
+
+  @include breakpoint(small) {
+    padding: $base-spacing-unit;
+  }
+
+  @include breakpoint(x-medium) {
+    font-size: 1.125rem; // 18px
+  }
+
+  @include breakpoint(large) {
+    font-size: 1.25rem; // 20px
+  }
+
+  @include breakpoint(x-large) {
+    font-size: 1.375rem; // 22px
+  }
+}
+
+pre,
+code {
+  background-color: $color-lightblue;
+  border: 1px solid $color-gray-light;
+  border-radius: 3px;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 8px 12px;
+
+  > code {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}

@@ -1,0 +1,16 @@
+$base-font-size: 16px;
+$base-line-height: 1.5rem;
+$base-radius: 3px;
+
+$base-spacing-unit: $base-line-height;
+
+$breakpoints: (
+  'tiny': (max-width: 20rem),     // screen width below 320px
+  'small': (min-width: 32rem),    // screen width above 512px
+  'medium': (min-width: 40rem),   // screen width above 640px
+  'x-medium': (min-width: 75rem),   // screen width above 1200px
+  'large': (min-width: 100rem),   // screen width above 1600px
+  'x-large': (min-width: 120rem), // screen width above 1920px
+  'med-and-below': (max-width: 40rem),
+  'xl-and-below': (max-width: 120rem)
+);
