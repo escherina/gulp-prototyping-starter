@@ -46,8 +46,8 @@ This is the default development task. It will do the following:
 - start watching files in the `src` directory for changes
 - start Browsersync
 - copy html/htm/xml/json/txt files anywhere in `src` to `build/development`
-- compile Sass files in `src/assets/scss` into `build/development/css/main.css`, add vendor prefixes for older browsers, generate a source map, and lint
-- concatenate JavaScript files in `src/assets/js` into `build/development/js/scripts.js`, generate a source map, and lint
+- compile Sass files in `src/scss` into `build/development/css/main.css`, add vendor prefixes for older browsers, generate a source map, and lint
+- concatenate JavaScript files in `src/js` into `build/development/js/scripts.js`, generate a source map, and lint
 - copy image files anywhere in `src` into `build/development`
 - launch a new browser window and serve `index.html` at `http://localhost:9999`
 
@@ -62,8 +62,8 @@ Type `gulp publish` into your command line.
 This is the publish task. It will do the following:
 - delete the existing `build/production` directory
 - copy any html/htm/xml/json/txt files from `src` to `build/production`
-- compile Sass files in `src/assets/scss` into `build/production/css/main.css`, add vendor prefixes for older browsers, generate a source map, and minify
-- concatenate JavaScript files in `src/assets/js` into `build/production/js/scripts.js`, generate a source map, and minify
+- compile Sass files in `src/scss` into `build/production/css/main.css`, add vendor prefixes for older browsers, generate a source map, and minify
+- concatenate JavaScript files in `src/js` into `build/production/js/scripts.js`, generate a source map, and minify
 - copy image files anywhere in `src` into `build/production` and optimise them for web
 
 The process will then end and you will be left with an optimised site in `build/production`. It doesn't watch files or lint your CSS/JS, as I assume this is done during the development process.
