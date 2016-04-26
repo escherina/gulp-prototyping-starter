@@ -8,7 +8,7 @@ gulp.task('build', function(callback) {
   [
     'html',
     'sass',               // css from sass files
-    'scss-lint',          // lint scss
+    'stylelint',          // lint scss
     'scripts',            // concat js
     'jshint',             // lint js
     'images',             // copy images to assets folder

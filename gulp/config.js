@@ -67,13 +67,16 @@ module.exports = {
     scripts: src + '/js/**/*.js',
     images: src + '/**/*.{png,jpeg,jpg,gif,svg,ico}'
   },
-  scsslint: {
+  stylelint: {
     src: [
       src + '/scss/**/*.{sass,scss}',
       '!' + src + '/scss/_generic.normalize.scss'
     ],
     options: {
-      bundleExec: true
+      failAfterError: false,
+      reporters: [
+        {formatter: 'string', console: true}
+      ]
     }
   },
   jshint: {
