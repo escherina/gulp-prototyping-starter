@@ -1,3 +1,5 @@
+⚠ This project is now archived. The dependencies are very out-of-date - proceed with caution! ⚠
+
 # gulp-prototyping-starter
 
 Quick-start project for rapid prototyping in the browser, using node, gulp, and Ruby (for Sass compilation).
